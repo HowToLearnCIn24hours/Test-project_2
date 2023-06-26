@@ -5,7 +5,7 @@ cursor = connection.cursor()
 query = ("SELECT maintable.row_id, country.CountryCode, subset.subset, questioncode.question_code, questioncode.question_label, maintable.answer, maintable.percentage FROM maintable, country, questioncode, subset")
 try:
     cursor.execute(query)
-    #change the password of database because this is going to be public (create new user?)
+    #change the password of database because this is going to be public (create new user?)https://dev.mysql.com/doc/refman/8.0/en/resetting-permissions.html
 except mysql.connector.Error as err:
     if err.errno == errorcode.ER_ACCESS_DENIED_ERROR:
         print("Something is wrong with your user name or password")
