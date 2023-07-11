@@ -6,6 +6,6 @@ https://www.kaggle.com/datasets/ruslankl/european-union-lgbt-survey-2012
 
 This repository contains:
 
-- source code of database I created in order to contain data and practice SQL and database design skills
+- Source code of database I created in order to contain data and practice SQL and database design skills
 - Python code with analysis of various questions from survey, using Pandas, numpy and Matplotlib
 - MySQL/Python connector
