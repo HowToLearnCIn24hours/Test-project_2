@@ -46,11 +46,6 @@ plt.show()
 fig, ax = plt.subplots()
 ax.pie(
 #Discrimination against trans people in EU
-#Most dangerous countries to live in for trans people
-#Social acceptance of trans people
-#Everyday life difficulties lgbt people face
-#Everyday life difficulties trans people face
-#Political support of trans people
 #In your opinion, how widespread is offensive language about lesbian, gay, bisexual and/or transgender people by politicians in the country where you live? (Transgender people)
 polit_sup_df = df.loc[df.question_code.str.contains('b1_a')]
 trans_sup_df = polit_sup_df.loc[df.subset.str.contains('Transgender')]
